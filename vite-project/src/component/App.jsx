@@ -1,14 +1,14 @@
 // App.jsx
 
-import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { StudentsProvider } from './contexts/StudentsContext';
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { StudentsProvider } from "./contexts/StudentsContext";
 import { TeachersProvider } from './contexts/TeachersContext';
-import Navbar from './components/Navbar';
-import StudentList from './components/StudentList';
-import TeacherList from './components/TeacherList';
-import StudentDetail from './components/StudentDetail';
-import TeacherDetail from './components/TeacherDetail';
+import Navbar from "./components/Navbar";
+import StudentList from "./components/StudentList";
+import TeacherList from "./components/TeacherList";
+import StudentDetail from "./components/StudentDetail";
+import TeacherDetail from "./components/TeacherDetail";
 
 function App() {
   return (
